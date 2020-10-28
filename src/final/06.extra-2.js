@@ -28,7 +28,7 @@ function PokemonInfo({pokemonName}) {
       error => {
         setError(error)
         setStatus('rejected')
-      },
+      }
     )
   }, [pokemonName])
 
